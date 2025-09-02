@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "Shayarana",
+    "artist": "Sajid-Wajid",
+    "file": "songs/track01.mp3",
+    "albumImage": "images/cover01.jpg",
+    "favorite": false
+  },
+  {
+    "id": 2,
+    "title": "Leja",
+    "artist": "Jai Dhir",
+    "file": "songs/track02.mp3",
+    "albumImage": "images/cover02.jpg",
+    "favorite": false
+  },
+  {
+    "id": 3,
+    "title": "Aavan Jaavan",
+    "artist": "Pritem,Arjit Singh",
+    "file": "songs/track03.mp3",
+    "albumImage": "images/cover03.jpg",
+    "favorite": false
+  },
+  {
+    "id": 4,
+    "title": "Matargashti",
+    "artist": "Mohit Chauhan",
+    "file": "songs/track04.mp3",
+    "albumImage": "images/cover04.jpg",
+    "favorite": false
+  },
+  {
+    "id": 5,
+    "title": "Chor Bazari",
+    "artist": "Pritam, Neeraj Shridhar",
+    "file": "songs/track05.mp3",
+    "albumImage": "images/cover05.jpg",
+    "favorite": false
+  },
+  {
+    "id": 6,
+    "title": "Kashmir Main Tu Kanyakumari",
+    "artist": "Vishal-Shekhar",
+    "file": "songs/track06.mp3",
+    "albumImage": "images/cover06.jpg",
+    "favorite": false
+  },
+  {
+    "id": 7,
+    "title": "Soulmate",
+    "artist": "Arjit Singh",
+    "file": "songs/track07.mp3",
+    "albumImage": "images/cover07.jpg",
+    "favorite": false
+  },
+  {
+    "id": 8,
+    "title": "Preet Re",
+    "artist": "Darshan Raval",
+    "file": "songs/track08.mp3",
+    "albumImage": "images/cover08.jpg",
+    "favorite": false
+  },
+  {
+    "id": 9,
+    "title": "Ajeed O Gareeb",
+    "artist": "Amit Trivedi",
+    "file": "songs/track09.mp3",
+    "albumImage": "images/cover09.jpg",
+    "favorite": false
+  },
+  {
+    "id": 10,
+    "title": "Tum Hi Ho Bandhu",
+    "artist": "Pritam",
+    "file": "songs/track10.mp3",
+    "albumImage": "images/cover10.jpg",
+    "favorite": false
+  },
+  {
+    "id": 11,
+    "title": "Sapphire",
+    "artist": "Ed Sheeran,Arjit Singh",
+    "file": "songs/track11.mp3",
+    "albumImage": "images/cover11.jpg",
+    "favorite": false
+  },
+  {
+    "id": 12,
+    "title": "Mann Bawara",
+    "artist": "Adarsh Rao",
+    "file": "songs/track12.mp3",
+    "albumImage": "images/cover12.jpg",
+    "favorite": false
+  }
+]

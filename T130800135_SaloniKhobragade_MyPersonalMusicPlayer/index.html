@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyPersonal Music Player</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Dynamic Blurred Background -->
+  <div class="bg-blur"></div>
+
+  <main class="player-shell">
+    <!-- Now Playing -->
+    <section class="now-playing">
+      <img id="albumArt" src="images/cover01.jpg" alt="Album Art" />
+      <div class="now-meta">
+        <h2 id="nowTitle">—</h2>
+        <p id="nowArtist">—</p>
+        <div class="badges">
+          <span class="badge" id="badgeShuffle">Shuffle: Off</span>
+          <span class="badge" id="badgeRepeat">Repeat: Off</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls -->
+    <section class="controls">
+      <div class="controls-main">
+        <button class="icon-btn" id="btnPrev"><i class="fas fa-backward"></i></button>
+        <button class="icon-btn play-btn" id="btnPlay"><i class="fas fa-play"></i></button>
+        <button class="icon-btn play-btn" id="btnPause" style="display:none"><i class="fas fa-pause"></i></button>
+        <button class="icon-btn" id="btnNext"><i class="fas fa-forward"></i></button>
+        <button class="icon-btn" id="btnShuffle"><i class="fas fa-random"></i></button>
+        <button class="icon-btn" id="btnRepeat"><i class="fas fa-redo"></i></button>
+        <button class="icon-btn" id="btnFav"><i class="fas fa-heart"></i></button>
+      </div>
+
+      <div class="time-rows">
+        <span id="currentTime">0:00</span>
+        <input type="range" id="seekBar" min="0" max="100" value="0" step="0.1" />
+        <span id="totalDuration">0:00</span>
+      </div>
+
+      <div class="volume-row">
+        <label for="volumeRange">Volume</label>
+        <input type="range" id="volumeRange" min="0" max="1" value="0.8" step="0.01"/>
+      </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search-wrap">
+      <input id="searchInput" type="text" placeholder="Search songs…" />
+      <button id="voiceBtn" class="icon-btn"><i class="fas fa-microphone"></i></button>
+    </section>
+
+    <!-- Playlist / Recently / Favorites -->
+    <section class="lists">
+      <div class="list-block">
+        <h3>Playlist</h3>
+        <ul id="playlist" class="song-list"></ul>
+      </div>
+      <div class="list-block">
+        <h3>Recently Played</h3>
+        <ul id="recentList" class="mini-list"></ul>
+      </div>
+      <div class="list-block">
+        <h3>Favorites</h3>
+        <ul id="favList" class="mini-list"></ul>
+      </div>
+    </section>
+  </main>
+
+  <audio id="audioEl" preload="metadata"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
